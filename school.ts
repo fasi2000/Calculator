@@ -41,14 +41,14 @@ if (sub6 > 100) {
     console.log("|    Sorry ! You entered > 100 marks     |");
     console.log("---------------------------------------------------------");
 }
-if console.log ("\n Your TOTAL MARKs are      :  ", totmarks())
-     console.log("\n Your Percentage is        :  %", addmarks())
-if (addmarks() >= 90) {console.log("Your GRADE is 'A+' ")}
-if (addmarks() >= 80) {console.log("Your GRADE is 'A' ")}
-if (addmarks() >= 70) {console.log("Your GRADE is 'B' ")}
-if (addmarks() >= 60) {console.log("Your GRADE is 'C' ")}
-if (addmarks() >= 50) {console.log("Your GRADE is 'D' ")}       
-else console.log(" You are FAILED")
-console.log("                                   \n\n");
-console.log("THANK YOU !  (This RESULT SHEET is developed by 'FASI UDDIN') ");
-console.log("                               \n");
+else {console.log("\n Your TOTAL MARKs are      :  ", totmarks());
+     console.log("\n Your Percentage is        :  %", addmarks());}
+if (addmarks() >= 90) {console.log(" \nYour GRADE is              :  'A+' ")};
+    if (addmarks() >= 80 && addmarks() <91) {console.log(" \n Your GRADE is            :  'A' ")};
+        if (addmarks() >= 70 && addmarks() <81) {console.log(" \n Your GRADE is            :   'B' ")};
+           if (addmarks() >= 60 && addmarks() < 71) {console.log( "\n Your GRADE is            :   'C' ")};
+             if (addmarks() >= 50 && addmarks() <61) {console.log(" \n Your GRADE is            :   'D' ")};      
+//else {console.log(" You are FAILED")
+console.log("                                   \n\n")
+         console.log("THANK YOU !  (This RESULT SHEET is developed by 'FASI UDDIN') ")
+console.log("                               \n")
